@@ -1,4 +1,4 @@
-baseURL = "https://xkhm.net/"
+baseURL = "https://xkhm.net/thinking-research/"
 title = "星空海绵 - 思考研究"
 enableRobotsTXT = true
 enableEmoji = true
@@ -11,6 +11,7 @@ disqusShortname = "https-xkhm-net"      # disqus_shortname
 googleAnalytics = "G-K0V0BST0TH"      # UA-XXXXXXXX-X
 copyright = "星空海绵"            # default: author.name ↓        # 默认为下面配置的author.name ↓
 comment = false
+publishDir = "docs"
 
 # Highlight options. See https://gohugo.io/content-management/syntax-highlighting/
 PygmentsCodeFences = true # Enable syntax highlighting with GitHub flavoured code fences
