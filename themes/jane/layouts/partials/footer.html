@@ -1,0 +1,47 @@
+<div class="copyright">
+  <!-- Counter urlstat -->
+  <!-- {{ if .Site.Params.counter.urlstat.enable }}
+  访客数/访问量：<span id="urlstat-site-uv">
+  </span>/<span id="urlstat-site-pv">
+  </span>
+  <br />
+  {{ end }} -->
+  <span class="copyright-year">
+    {{- $current := now.Format "2006" }}
+    &copy;
+    {{ if ne .Site.Params.since $current }}
+    {{ .Site.Params.since }} -
+    {{ end }}
+    {{- $current }}
+    <span class="heart">
+      {{/* icon heart */}}
+      <i class="iconfont">
+        {{ partial "svg/heart.svg" }}
+      </i>
+    </span>
+    {{- if or .Site.Copyright .Site.Author.name -}}
+    <span class="author">
+      {{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}
+      {{ else }}{{ .Site.Author.name | safeHTML }}
+      {{ end }}
+    </span>
+    {{- end -}}
+  </span>
+  {{ if .Site.Params.customFooter }}
+  <span>
+    {{ .Site.Params.customFooter | safeHTML }}
+  </span>
+  {{ end }}
+  <div class="power-by">
+    🧡 万物理论，尊重客观规律 🧡
+  </div>
+  <div class="power-by">
+    🧡 永远相信美好的事情即将发生 🧡
+  </div>
+  <div class="power-by">
+    🧡 船到桥头自然直，All Will Be Good 🧡
+  </div>
+  <div class="power-by">
+    🧡 进一步有一步的欢喜，怕什么真理无穷 🧡
+  </div>
+</div>
