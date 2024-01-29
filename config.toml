@@ -39,7 +39,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   url = "/"
 [[menu.main]]
   name = "归档"
-  weight = 20
+  weight = 25
   identifier = "archives"
   url = "/post/"
 [[menu.main]]

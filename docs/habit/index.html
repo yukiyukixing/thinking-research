@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>微习惯 - 星空海绵 - 思考研究</title>
+  
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="星空海绵" />
+  <meta name="description" content="2024 日期 仰卧起坐 算法 晚上漱口 2024.01.01 螺旋矩阵 2024.01.02 旋转图像 2024.01.03 搜索二维矩阵 II 2024.01.04 相交链表 2024.01.05 反转链表 2024.01.06 回文链表 2024.01.07 环形链表 2024.01.08 环形链表 II 2024.01.09 合并两个有序链表 2024.01.10 两数相" />
+
+  <meta name="keywords" content="Hugo, 星空海绵, 前端, 工程师" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.79.0" />
+
+
+<link rel="canonical" href="https://xkhm.net/thinking-research/habit/" />
+
+
+
+
+
+<link rel="icon" href="/thinking-research/favicon.png" type="image/x-icon"/>
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/thinking-research/sass/jane.min.17307845937c9b21fa912c5a9eab883231abb43a4205d0a6dacdb2e6a279b30f.css" integrity="sha256-FzB4RZN8myH6kSxanquIMjGrtDpCBdCm2s2y5qJ5sw8=" media="screen" crossorigin="anonymous">
+
+
+
+
+
+<meta property="og:title" content="微习惯" />
+<meta property="og:description" content="2024 日期 仰卧起坐 算法 晚上漱口 2024.01.01 螺旋矩阵 2024.01.02 旋转图像 2024.01.03 搜索二维矩阵 II 2024.01.04 相交链表 2024.01.05 反转链表 2024.01.06 回文链表 2024.01.07 环形链表 2024.01.08 环形链表 II 2024.01.09 合并两个有序链表 2024.01.10 两数相" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xkhm.net/thinking-research/habit/" />
+<meta property="article:published_time" content="2024-01-29T21:14:51+08:00" />
+<meta property="article:modified_time" content="2024-01-29T21:14:51+08:00" />
+<meta itemprop="name" content="微习惯">
+<meta itemprop="description" content="2024 日期 仰卧起坐 算法 晚上漱口 2024.01.01 螺旋矩阵 2024.01.02 旋转图像 2024.01.03 搜索二维矩阵 II 2024.01.04 相交链表 2024.01.05 反转链表 2024.01.06 回文链表 2024.01.07 环形链表 2024.01.08 环形链表 II 2024.01.09 合并两个有序链表 2024.01.10 两数相">
+<meta itemprop="datePublished" content="2024-01-29T21:14:51+08:00" />
+<meta itemprop="dateModified" content="2024-01-29T21:14:51+08:00" />
+<meta itemprop="wordCount" content="1121">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="微习惯"/>
+<meta name="twitter:description" content="2024 日期 仰卧起坐 算法 晚上漱口 2024.01.01 螺旋矩阵 2024.01.02 旋转图像 2024.01.03 搜索二维矩阵 II 2024.01.04 相交链表 2024.01.05 反转链表 2024.01.06 回文链表 2024.01.07 环形链表 2024.01.08 环形链表 II 2024.01.09 合并两个有序链表 2024.01.10 两数相"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-K0V0BST0TH', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/thinking-research/" class="logo">星空海绵</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://xkhm.net/thinking-research/">首页</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://xkhm.net/thinking-research/plan/">计划</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://xkhm.net/thinking-research/habit/">微习惯</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://xkhm.net/thinking-research/target/">年度目标</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://xkhm.net/thinking-research/post/">归档</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://xkhm.net/thinking-research/tags/">标签</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://xkhm.net/thinking-research/categories/">分类</a>
+          
+        
+      </li>
+    
+
+    
+  </ul>
+</nav>
+
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/thinking-research/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/thinking-research/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/thinking-research/%20/" class="logo">
+    
+    星空海绵
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+    
+    <li class="menu-item">
+      
+      
+      
+      <a class="menu-item-link" href="https://xkhm.net/thinking-research/">首页</a>
+      
+
+      
+
+    </li>
+    
+    <li class="menu-item">
+      
+      
+      
+      <a class="menu-item-link" href="https://xkhm.net/thinking-research/plan/">计划</a>
+      
+
+      
+
+    </li>
+    
+    <li class="menu-item">
+      
+      
+      
+      <a class="menu-item-link" href="https://xkhm.net/thinking-research/habit/">微习惯</a>
+      
+
+      
+
+    </li>
+    
+    <li class="menu-item">
+      
+      
+      
+      <a class="menu-item-link" href="https://xkhm.net/thinking-research/target/">年度目标</a>
+      
+
+      
+
+    </li>
+    
+    <li class="menu-item">
+      
+      
+      
+      <a class="menu-item-link" href="https://xkhm.net/thinking-research/post/">归档</a>
+      
+
+      
+
+    </li>
+    
+    <li class="menu-item">
+      
+      
+      
+      <a class="menu-item-link" href="https://xkhm.net/thinking-research/tags/">标签</a>
+      
+
+      
+
+    </li>
+    
+    <li class="menu-item">
+      
+      
+      
+      <a class="menu-item-link" href="https://xkhm.net/thinking-research/categories/">分类</a>
+      
+
+      
+
+    </li>
+    
+
+    
+    
+
+    
+  </ul>
+</nav>
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+  
+  <header class="post-header">
+    <h1 class="post-title">微习惯</h1>
+    
+    <div class="post-meta">
+      <time datetime="2024-01-29" class="post-time">
+        2024-01-29
+      </time>
+      
+      
+    </div>
+  </header>
+
+  
+  
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents"></nav>
+  </div>
+</div>
+
+  
+  <div class="post-content">
+      <h1 id="2024">2024</h1>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>仰卧起坐</th>
+<th>算法</th>
+<th>晚上漱口</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024.01.01</td>
+<td></td>
+<td>螺旋矩阵</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.02</td>
+<td></td>
+<td>旋转图像</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.03</td>
+<td></td>
+<td>搜索二维矩阵 II</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.04</td>
+<td></td>
+<td>相交链表</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.05</td>
+<td></td>
+<td>反转链表</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.06</td>
+<td></td>
+<td>回文链表</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.07</td>
+<td></td>
+<td>环形链表</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.08</td>
+<td></td>
+<td>环形链表 II</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.09</td>
+<td></td>
+<td>合并两个有序链表</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.10</td>
+<td></td>
+<td>两数相加</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.11</td>
+<td></td>
+<td>删除链表的倒数第 N 个结点</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.12</td>
+<td></td>
+<td>两两交换链表中的节点</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.13</td>
+<td></td>
+<td>K 个一组翻转链表</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.14</td>
+<td></td>
+<td>随机链表的复制</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.15</td>
+<td></td>
+<td>排序链表</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.16</td>
+<td></td>
+<td>合并 K 个升序链表</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.17</td>
+<td></td>
+<td>LRU 缓存</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.18</td>
+<td></td>
+<td>二叉树的中序遍历</td>
+<td>3分钟✅</td>
+</tr>
+<tr>
+<td>2024.01.19</td>
+<td></td>
+<td>二叉树的最大深度</td>
+<td>3分钟✅</td>
+</tr>
+<tr>
+<td>2024.01.20</td>
+<td></td>
+<td>翻转二叉树</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.21</td>
+<td></td>
+<td>对称二叉树</td>
+<td>3分钟✅</td>
+</tr>
+<tr>
+<td>2024.01.22</td>
+<td></td>
+<td>二叉树的直径</td>
+<td>2分钟✅</td>
+</tr>
+<tr>
+<td>2024.01.23</td>
+<td></td>
+<td>二叉树的层序遍历</td>
+<td>2分钟✅</td>
+</tr>
+<tr>
+<td>2024.01.24</td>
+<td></td>
+<td>将有序数组转换为二叉搜索树</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.25</td>
+<td></td>
+<td>验证二叉搜索树</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.26</td>
+<td></td>
+<td>二叉搜索树中第K小的元素</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.27</td>
+<td></td>
+<td>二叉树的右视图</td>
+<td>2分钟✅</td>
+</tr>
+<tr>
+<td>2024.01.28</td>
+<td>5✅</td>
+<td>二叉树展开为链表</td>
+<td>5分钟✅</td>
+</tr>
+<tr>
+<td>2024.01.29</td>
+<td></td>
+<td>从前序与中序遍历序列构造二叉树</td>
+<td>3分钟✅</td>
+</tr>
+<tr>
+<td>2024.01.30</td>
+<td></td>
+<td>路径总和 III</td>
+<td></td>
+</tr>
+<tr>
+<td>2024.01.31</td>
+<td></td>
+<td>二叉树的最近公共祖先</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="2023">2023</h1>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>仰卧起坐</th>
+<th>算法</th>
+<th>晚上漱口</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023.11.04</td>
+<td>3✅</td>
+<td>接雨水✅</td>
+<td>2分钟✅</td>
+</tr>
+<tr>
+<td>2023.11.05</td>
+<td>2✅</td>
+<td>两数之和✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.06</td>
+<td>8✅</td>
+<td>盛最多水的容器✅</td>
+<td>5分钟✅</td>
+</tr>
+<tr>
+<td>2023.11.07</td>
+<td>3✅</td>
+<td>移动零✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.08</td>
+<td>5✅</td>
+<td>反转链表✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.09</td>
+<td>5✅</td>
+<td>字母异位词分组✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.10</td>
+<td>3✅</td>
+<td>全排列✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.11</td>
+<td>2✅</td>
+<td>二叉树的中序遍历✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.12</td>
+<td>5✅</td>
+<td>二叉树的层序遍历✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.13</td>
+<td>4✅</td>
+<td>二叉树的后序遍历✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.14</td>
+<td>10✅</td>
+<td>最长连续序列✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.15</td>
+<td>4✅</td>
+<td>寻找重复数✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.16</td>
+<td>3✅</td>
+<td>三数之和✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.17</td>
+<td>5✅</td>
+<td>无重复字符的最长子串✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.18</td>
+<td>8✅</td>
+<td>找到字符串中所有字母异位词✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.19</td>
+<td>5✅</td>
+<td>全排列✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.20</td>
+<td>3✅</td>
+<td>全排列✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.21</td>
+<td>5✅</td>
+<td>冒泡排序✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.22</td>
+<td>2✅</td>
+<td>相交链表✅</td>
+<td>2分钟✅</td>
+</tr>
+<tr>
+<td>2023.11.23</td>
+<td>5✅</td>
+<td>无重复字符的最长子串✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.24</td>
+<td>12✅</td>
+<td>爬楼梯✅</td>
+<td>40秒✅</td>
+</tr>
+<tr>
+<td>2023.11.25</td>
+<td>3✅</td>
+<td>最长公共前缀✅</td>
+<td>60秒✅</td>
+</tr>
+<tr>
+<td>2023.11.26</td>
+<td>3✅</td>
+<td>找到字符串中所有字母异位词✅</td>
+<td>40秒✅</td>
+</tr>
+<tr>
+<td>2023.11.27</td>
+<td>3✅</td>
+<td>二叉树层序遍历✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.28</td>
+<td>2✅</td>
+<td>最长公共前缀✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.11.29</td>
+<td>10✅</td>
+<td>最长连续序列✅</td>
+<td>90秒✅</td>
+</tr>
+<tr>
+<td>2023.11.30</td>
+<td>3✅</td>
+<td>合并两个有序链表✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.01</td>
+<td>4✅</td>
+<td>旋转链表✅</td>
+<td>80秒✅</td>
+</tr>
+<tr>
+<td>2023.12.02</td>
+<td>16✅</td>
+<td>比较版本号✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.03</td>
+<td>2✅</td>
+<td>快速排序✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.04</td>
+<td>2✅</td>
+<td>字母异位词分组✅</td>
+<td>40秒✅</td>
+</tr>
+<tr>
+<td>2023.12.05</td>
+<td>3✅</td>
+<td>二叉树的右视图✅</td>
+<td>40秒✅</td>
+</tr>
+<tr>
+<td>2023.12.06</td>
+<td>3✅</td>
+<td>翻转二叉树✅</td>
+<td>40秒✅</td>
+</tr>
+<tr>
+<td>2023.12.07</td>
+<td>2✅</td>
+<td>删除链表的倒数第 N 个结点✅</td>
+<td>40秒✅</td>
+</tr>
+<tr>
+<td>2023.12.08</td>
+<td>3✅</td>
+<td>冒泡排序✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.09</td>
+<td>3✅</td>
+<td>快速排序✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.10</td>
+<td>3✅</td>
+<td>插入排序✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.11</td>
+<td>3✅</td>
+<td>从前序与中序遍历序列构造二叉树✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.12</td>
+<td>5✅</td>
+<td>二叉树的层序遍历✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.13</td>
+<td>3✅</td>
+<td>最长回文子串✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.14</td>
+<td>3✅</td>
+<td>两数之和✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.15</td>
+<td>3✅</td>
+<td>字母异位词分组✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.16</td>
+<td>3✅</td>
+<td>最长连续序列✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.17</td>
+<td>10✅</td>
+<td>移动零✅</td>
+<td>90秒✅</td>
+</tr>
+<tr>
+<td>2023.12.18</td>
+<td>5✅</td>
+<td>盛最多水的容器✅</td>
+<td>60秒✅</td>
+</tr>
+<tr>
+<td>2023.12.19</td>
+<td>3✅</td>
+<td>三数之和✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.20</td>
+<td>3✅</td>
+<td>接雨水✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.21</td>
+<td>4✅</td>
+<td>无重复字符的最长子串✅</td>
+<td>60秒✅</td>
+</tr>
+<tr>
+<td>2023.12.22</td>
+<td>3✅</td>
+<td>找到字符串中所有字母异位词✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.23</td>
+<td>4✅</td>
+<td>和为 K 的子数组✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.24</td>
+<td>3✅</td>
+<td>滑动窗口最大值✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.25</td>
+<td>3✅</td>
+<td>最小覆盖子串✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.26</td>
+<td>4✅</td>
+<td>最大子数组和✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.27</td>
+<td>3✅</td>
+<td>合并区间✅</td>
+<td>30秒✅</td>
+</tr>
+<tr>
+<td>2023.12.28</td>
+<td>3✅</td>
+<td>轮转数组</td>
+<td></td>
+</tr>
+<tr>
+<td>2023.12.29</td>
+<td>3✅</td>
+<td>除自身以外数组的乘积</td>
+<td></td>
+</tr>
+<tr>
+<td>2023.12.30</td>
+<td>3✅</td>
+<td>缺失的第一个正数</td>
+<td></td>
+</tr>
+<tr>
+<td>2023.12.31</td>
+<td>3✅</td>
+<td>矩阵置零</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+  </div>
+
+  
+  
+
+
+  
+  
+</article>
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="copyright">
+  
+  
+  <span class="copyright-year">
+    &copy;
+    
+    2023 -
+    2024
+    <span class="heart">
+      
+      <i class="iconfont">
+        <svg class="icon" viewBox="0 0 1025 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="14" height="14">
+  <path d="M1000.1 247.9c-15.5-37.3-37.6-70.6-65.7-98.9-54.4-54.8-125.8-85-201-85-85.7 0-166 39-221.4 107.4C456.6 103 376.3 64 290.6 64c-75.1 0-146.5 30.4-201.1 85.6-28.2 28.5-50.4 61.9-65.8 99.3-16 38.8-24 79.9-23.6 122.2 0.7 91.7 40.1 177.2 108.1 234.8 3.1 2.6 6 5.1 8.9 7.8 14.9 13.4 58 52.8 112.6 102.7 93.5 85.5 209.9 191.9 257.5 234.2 7 6.1 15.8 9.5 24.9 9.5 9.2 0 18.1-3.4 24.9-9.5 34.5-30.7 105.8-95.9 181.4-165 74.2-67.8 150.9-138 195.8-178.2 69.5-57.9 109.6-144.4 109.9-237.3 0.1-42.5-8-83.6-24-122.2z"
+   fill="#8a8a8a"></path>
+</svg>
+
+      </i>
+    </span><span class="author">
+      星空海绵
+      
+    </span></span>
+  
+  <div class="power-by">
+    🧡 万物理论，尊重客观规律 🧡
+  </div>
+  <div class="power-by">
+    🧡 永远相信美好的事情即将发生 🧡
+  </div>
+  <div class="power-by">
+    🧡 船到桥头自然直，All Will Be Good 🧡
+  </div>
+  <div class="power-by">
+    🧡 进一步有一步的欢喜，怕什么真理无穷 🧡
+  </div>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont">
+        
+        <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="35" height="35">
+  <path d="M510.866688 227.694839 95.449397 629.218702l235.761562 0-2.057869 328.796468 362.40389 0L691.55698 628.188232l241.942331-3.089361L510.866688 227.694839zM63.840492 63.962777l894.052392 0 0 131.813095L63.840492 195.775872 63.840492 63.962777 63.840492 63.962777zM63.840492 63.962777"></path>
+</svg>
+
+      </i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/thinking-research/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/thinking-research/lib/slideout/slideout-1.0.1.min.js"></script>
+
+
+
+
+<script type="text/javascript" src="/thinking-research/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <script type="text/javascript" src="/thinking-research/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/thinking-research/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/thinking-research/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
