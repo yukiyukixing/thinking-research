@@ -45,20 +45,62 @@
   
   <url>
     <loc>https://xkhm.net/thinking-research/categories/</loc>
-    <lastmod>2024-02-04T00:34:04+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xkhm.net/thinking-research/post/</loc>
-    <lastmod>2024-02-04T00:34:04+08:00</lastmod>
+    <lastmod>2024-02-04T01:07:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://xkhm.net/thinking-research/tags/</loc>
+    <lastmod>2024-02-04T01:07:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/categories/%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2024-02-04T01:07:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/%E6%88%90%E6%9E%9C%E7%9A%84%E6%80%BB%E7%BB%93%E6%A2%B3%E7%90%86%E6%8F%90%E7%82%BC/</loc>
+    <lastmod>2024-02-04T01:07:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2024-02-04T01:07:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/tags/%E6%94%B6%E5%B0%BE/</loc>
+    <lastmod>2024-02-04T01:07:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/</loc>
+    <lastmod>2024-02-04T01:07:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/tags/%E7%A7%AF%E7%B4%AF/</loc>
+    <lastmod>2024-02-04T01:07:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/post/</loc>
     <lastmod>2024-02-04T00:34:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -87,13 +129,6 @@
   
   <url>
     <loc>https://xkhm.net/thinking-research/categories/%E6%80%9D%E8%80%83/</loc>
-    <lastmod>2024-02-04T00:34:04+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xkhm.net/thinking-research/</loc>
     <lastmod>2024-02-04T00:34:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
