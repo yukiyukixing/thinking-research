@@ -3,7 +3,7 @@ title: "标准"
 date: 2024-01-29T21:14:51+08:00
 lastmod: 2024-01-29T21:14:51+08:00
 menu: "main"
-weight: 25
+weight: 24
 contentCopyright: false
 comment: false
 mathjax: false
@@ -14,3 +14,5 @@ mathjax: false
 - **2.直面你的内心与既定的事实，不要逃避。**
 
 - **3.唯手熟尔。**
+
+- **4.经济基础决定一切上层建筑。**
