@@ -45,21 +45,77 @@
   
   <url>
     <loc>https://xkhm.net/thinking-research/categories/</loc>
-    <lastmod>2024-02-04T01:07:02+08:00</lastmod>
+    <lastmod>2024-02-26T08:33:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://xkhm.net/thinking-research/post/</loc>
-    <lastmod>2024-02-04T01:07:02+08:00</lastmod>
+    <lastmod>2024-02-26T08:33:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://xkhm.net/thinking-research/tags/</loc>
-    <lastmod>2024-02-04T01:07:02+08:00</lastmod>
+    <lastmod>2024-02-26T08:33:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/tags/%E4%BC%81%E4%B8%9A/</loc>
+    <lastmod>2024-02-26T08:33:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/tags/%E5%95%86%E4%B8%9A%E4%BA%BA%E7%89%A9/</loc>
+    <lastmod>2024-02-26T08:33:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/post/%E5%AF%B9%E4%BA%8E%E5%95%86%E4%B8%9A%E4%BA%BA%E7%89%A9%E6%88%91%E4%BB%AC%E5%BA%94%E8%AF%A5%E4%BB%8E%E5%93%AA%E4%BA%9B%E7%82%B9%E8%BF%9B%E8%A1%8C%E7%A0%94%E7%A9%B6/</loc>
+    <lastmod>2024-02-26T08:33:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/tags/%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2024-02-26T08:33:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/</loc>
+    <lastmod>2024-02-26T08:33:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/tags/%E7%A0%94%E7%A9%B6/</loc>
+    <lastmod>2024-02-26T08:33:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/categories/%E7%A0%94%E7%A9%B6/</loc>
+    <lastmod>2024-02-26T08:33:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/tags/%E8%B0%83%E7%A0%94/</loc>
+    <lastmod>2024-02-26T08:33:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -87,13 +143,6 @@
   
   <url>
     <loc>https://xkhm.net/thinking-research/tags/%E6%94%B6%E5%B0%BE/</loc>
-    <lastmod>2024-02-04T01:07:02+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xkhm.net/thinking-research/</loc>
     <lastmod>2024-02-04T01:07:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
