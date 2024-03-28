@@ -3,7 +3,7 @@ title: "灵感"
 date: 2024-01-29T21:14:51+08:00
 lastmod: 2024-01-29T21:14:51+08:00
 menu: "main"
-weight: 20
+weight: 19
 contentCopyright: false
 comment: false
 mathjax: false
@@ -186,6 +186,8 @@ mathjax: false
 - 86.怜悯之心，救世主思想。放下助人情节，尊重他人命运。
 
 - 87.人物，李笑来。
+
+- 88.小米营销。
 
 # 待做
 
