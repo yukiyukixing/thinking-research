@@ -51,6 +51,20 @@
   </url>
   
   <url>
+    <loc>https://xkhm.net/thinking-research/treasury/</loc>
+    <lastmod>2021-01-02T19:14:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xkhm.net/thinking-research/interview/</loc>
+    <lastmod>2021-01-02T19:39:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://xkhm.net/thinking-research/categories/</loc>
     <lastmod>2025-04-09T08:54:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
